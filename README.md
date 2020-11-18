@@ -1,6 +1,6 @@
 #goodshellers
-/nAlejandro Ruiz
-/nDaniela Pérez
-/nJaime Miquel
-/nMaría Casquero
-/nPablo Rojas
+Alejandro Ruiz
+Daniela Pérez
+Jaime Miquel
+María Casquero
+Pablo Rojas
