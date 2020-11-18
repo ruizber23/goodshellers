@@ -1,0 +1,391 @@
+echo "Hola"
+echo $date
+echo $(date)
+clear
+ll
+exit
+cat -n
+history grep
+ls
+vim pp.txt
+clear
+touch pp.txt
+ls pp.txt
+rm pp.txt
+gedit pp.txt
+$HISFILE
+echo $HISFILE
+exit
+echo $HISTFILE
+tail -n 5 /home/dsc/.history
+ls -l
+ls -l /home/dsc/.history
+whatis ll
+ll
+ll $HISTFILE
+touch folder1/one
+mkdir folder1
+mkdir folder2
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2
+ll folder2
+echo "fist line">>folder1/one
+head folder1/one
+head folder2/one
+touch folder1/oneB
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2
+ll folder1
+rsync -avz folder1 folder2
+ll folder2
+rsync -avz folder1/ folder2
+ll folder2
+rm -r folder2/folder1
+ls folder2
+cd git
+cd
+cd ~
+cd git
+ls
+mkdir ~/git
+cd git
+cp /home/dsc/.history ~/git
+ls
+git status
+ls -a
+git config --global user.name "Alejandro"
+git config --global user.email "alejandro.ruiz.berciano@gmail.com"
+cat .git/config
+cd
+cat .git/config
+ls
+cd git
+gist status
+git status
+ls
+-a
+ls .
+ls -a
+rm ./.history
+cp /home/dsc/.history ~/git/historygit
+ls -a
+pwd
+git remote add origin https://github.com/ruizber23/shell.git
+echo "primero">>README.md
+git init
+git add README.md
+git commit -m "primer commit"
+git status
+git remote add origin https://github.com/ruizber23/shell.git
+git push -u origin master
+cat .git/config
+cp /home/dsc/.history ~/git/historygit_17/11/2020
+cp /home/dsc/.history ~/git/history_17/11/2020
+cp /home/dsc/.history ~/git/history_17112020
+git status
+rm ~/git/historygit
+git commit
+git add history17112020
+git add ~/git~history17112020
+git add ~/git/history17112020
+git status
+git add ~/git/history_17112020
+git commit
+cd
+ls
+cd git
+git push -u origin master
+cd shell
+cd
+cd Data/shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w
+wc -l Text_example.txt
+git status
+echo "hola"
+echo "hola" | wc
+ls ~
+rm ~/folder1
+rm -f ~/folder1
+rm -r ~/folder1
+rm -r ~/folder2
+echo -n "hola" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -|
+cat Text_example.txt | wc -1
+cat Text_example.txt | wc -|\
+
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv|wc
+git commit -m "comit de history"
+cat Text_example.txt | wc -|\
+
+tail -c -1k optd_aircraft.csv|wc
+cd
+cat Text_example.txt | wc -|\
+
+tail -c -1k optd_aircraft.csv|wc
+cd Data/opentraveldata
+tail -c -1k optd_aircraft.csv|wc
+tail -c -1K optd_aircraft.csv|wc
+head -c -1k optd_aircraft.csv|wc
+head -c 1k optd_aircraft.csv|wc
+head -c -1K optd_aircraft.csv|wc
+cd
+wc -l Data/README.md
+wc -l Data/opentraveldata/optd_aircraft.csv
+wc Data/opentraveldata/optd_aircraft.csv
+cd git
+git status
+git push -u origin master
+git status
+git push -u origin master
+git commit history_17112020
+cd git
+git status
+git commit history_17112020 "commit de history"
+git commit history_17112020 -m "commit de history"
+git push -u origin master
+git status
+cd
+clear
+ls -l
+cd Data/opentraveldata
+ls
+ls -S
+ls -Sl
+head ls -Sl
+ls -Sl 1
+ls -lrt
+ls -Sl
+ls -Sl | head -n 1
+ls -Sl | tail -n 1
+ls -Sl | tail -n
+ls -Sl | tail -n 1
+ls -sl | tail -n 1
+ls -slr | tail -n 1
+ls -slr
+ls -s
+ls -sSlr
+ls -sSlr | tail -n 
+ls -sSlr | tail -n 1
+ls -sSlr | tail -n 1 > largest_file.txt
+ls
+cd
+cd Data/opentraveldata
+cat largest_file.txt
+where Finn.txt
+cd
+cd Data/shell
+ls
+wc -w Finn.txt
+wc -w head -m 5 Finn.txt
+wc -w head -n 5 Finn.txt
+head -n 5 Finn.txt
+head -n 5 Finn.txt | wc -w
+cd
+whereis Text_example.txt
+cd
+locate Text_example.txt
+cd Data/shell
+ls
+head -n 3 Text_example.txt
+cat head -n 3 Text_example.txt
+head -n 3 Text_example.txt
+head -n 3 Text_example.txt | cat -n
+cd
+locate Text_example.txt
+cd locate Text_example.txt
+cd Data/shell
+cat -n Text_example.txt
+cat -n Text_example.txt  > Text_example2.txt
+ls
+cat Text_example2.txt
+./Text_example.txt >> ./Text_example
+chmod 777
+chmod 777 Text_example.txt
+./Text_example.txt >> ./Text_example
+cat Text_example.txt
+./Text_example.txt >> ./Text_example
+cat ./Text_example.txt >> ./Text_example
+cat Text_example.txt
+cat Text_example.txt >> Text_example.txt
+cat Text_example.txt| >> Text_example.txt
+cat Text_example.txt
+history |grep rsync
+echo "This file is created by K on (date)"
+echo "This file is created by K on $(date)"
+echo "This file is created by K on $(date)" | > "FILE_new"
+cat "File_new\
+"
+cat "File_new"
+echo "This file is created by K on $(date)"  > "FILE_new"
+cat "File_new"
+cat File_new
+cat FILE_new
+head -n 20 ~/.history
+head -n 20 ~/.history > File_neww
+cat File_neww
+locate Text_example.txt
+tail -n +3 Text_example.txt
+tail -n +2 Text_example.txt | tail -n 3
+tail -n +2 Text_example.txt
+cat Text_example.txt
+cd
+cd git
+pwd
+cp ~/.history history_20201117 
+git status
+rm nano.save
+git status
+git add history_20201117
+git commit -m "commit fin de clase"
+git status
+git push -u origin master
+git pull https://github.com/ruizber23/shell.git
+git push -u origin master
+git status
+rm -r ~/git
+cd
+rm -r ~/git
+rm -rf ~/git
+ls
+mkdir git
+ls
+git clone https://github.com/ruizber23/shell.git cd ~/git
+ls
+cd ~/git
+ls
+git clone https://github.com/ruizber23/shell.git
+ls
+cd
+ls
+cd ~/git
+git status
+cd ~/Data/shell
+ls
+cd
+git clone https://github.com/ruizber23/shell.git
+ls
+cd shell
+cd
+rm -rf ~/git
+mv -r ~/shell ~/git
+mv ~/shell ~/git
+ls
+cd ~/git
+git init
+cp ~/.history ~/git/history_20201117
+git status
+git add history_20201117
+git commit -m "history de hoy"
+git remote add origin https://github.com/ruizber23/shell.git
+git push -u origin master
+git status
+exit
+echo "Hola"
+ls
+echo "hola \n mundo"
+echo "hola \nmundo"
+echo 'echo "hola \nmundo"' > holamundo.sh
+ls lrth |tail -n 1
+ls -lrth |tail -n 1
+ls
+gedit holamundo.sh
+bash holamundo.sh
+gedit holamundo.sh
+bash holamundo.sh
+chomd +x holamundo.sh
+./holamundo.sh
+chmod +x holamundo.sh
+gedit holamundo.sh
+bash holamundo.sh
+./holamundo.sh
+gedit holamundo.sh
+./hello-world 3
+./hello-world
+./holamundo
+ls
+./holamundo.sh
+gedit holamundo.sh
+bash holamundo.sh
+ls
+cd git
+mkdir goodshellers
+cd ./goodshellers
+echo "#goodshellers" >> README.md
+echo "Alejandro Ruiz" >> README.md
+echo "Daniela Pérez" >> README.md
+echo "Jaime Miquel" >> README.md
+echo "María Casquero" >> README.md
+echo "Pablo Rojas" >> README.md
+git init
+git add README.md
+git status
+git commit -m "primer commit"
+git remote origin https://github.com/ruizber23/goodshellers.git
+git push -u origin main
+git remote add origin https://github.com/ruizber23/goodshellers.git
+git push -u origin master
+cd ~/git
+ls
+cd ~
+cd Data/opentraveldata
+ls
+ls -sSlr | tail -n 1 > largest_file.txt
+cat largest_file.txt
+cat largest_file.txt > 001.out
+~
+echo "# > 001.sh
+echo '#!bin/bash'
+echo '#!bin/bash' > 001.sh
+~/.history | tail -n 30 >> 001.sh
+chmod u+wrx ~/.history
+~/.history | tail -n 30 >> 001.sh
+~/.history  tail -n 30 >> 001.sh
+ tail -n 40 < ~/.history >> 001.sh
+cat 001.sh
+gedit 001.sh
+cd
+cd ~/git
+cd goodshellers
+cp ~/Data/opentraveldata/001.out ~/git/goodshellers
+cp ~/Data/opentraveldata/001.sh ~/git/goodshellers
+git status
+git add 001.out 001.sh
+git status
+git commit -m "ejercicio 1"
+git push -u origin master
+git pull origin master
+git pull origin master "pull 1"
+git pull -u origin master
+git push -u origin master
+cd
+cd ~/Data/shell
+ls
+head -n 5 Finn.txt | wc -w
+cat head -n 5 Finn.txt | wc -w
+head -n 5 Finn.txt | wc -w > 002.out
+~/.history | tail -n 30 >> 002.sh
+ tail -n 40 < ~/.history >> 002.sh
+gedit 002.sh
+cd
+cd git/goodshellers
+git add 002.out 002.sh
+cp ~/Data/shell/002.out
+cp ~/Data/shell/002.out ./
+cp ~/Data/shell/002.sh ./
+ls
+git add 001.sh
+git add 001.out
+git status
+git commit -m "ejercicio 2"
+git push -u origin master
+cp ~/.history ~/git/goodshellers
+ls
+cp ~/.history ~/git/goodshellers/history20201811
