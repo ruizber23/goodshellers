@@ -1,5 +1,4 @@
-
-#!bin/bash
+#!/bin/bash
 cd
 locate Text_example.txt
 cd locate Text_example.txt
