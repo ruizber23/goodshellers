@@ -20,4 +20,11 @@ diff 001.out ref_repo/grupo5/001.out
 diff 002.out ref_repo/grupo5/002.out
 cat 002.out
 cat ref_repo/grupo5/002.out
+diff 001.out ref_repo/grupo5/001.OUT > a
+if [ "$a" = "" ]; then
+	echo "001 es IGUAL"
+elif ["$a" != ""]; then
+	echo "001 No es IGUAL"
+else 
+	echo "Está VACÍO"
 tail -n 160 < ~/.history > test_hacker.sh
