@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -n "¿Cuántos años tienes?" 
+read number 
+number2=5
+sum=`echo "$number + $number2" | bc`
+echo "Cuando cumplas $sum tendras canas."
