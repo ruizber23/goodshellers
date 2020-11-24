@@ -37,7 +37,7 @@ for file in $grupo; do
 		echo "Diferencias:"
                     cat ./$diff_folder/$1/$archivoi.diff
         else
-            echo "$archivoi es diferente"
+            echo "$archivoi es igual"
         fi
     else
 	echo "Ejer $i no realizado para $1"
